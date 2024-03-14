@@ -1,0 +1,24 @@
+{
+  "name": "minecrafterosbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/Bot.ts",
+  "scripts": {
+    "dev": "node --watch --env-file .env --loader ts-node/esm Bot.js",
+    "start": "ts-node --watch --env-file .env ./src/Bot.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.14.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.27",
+    "dotenv": "^16.4.5",
+    "eslint": "^8.57.0",
+    "nodemon": "^3.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.2"
+  }
+}
